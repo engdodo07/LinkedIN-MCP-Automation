@@ -218,3 +218,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Environment & Secrets (NEVER commit to GitHub)
+.env
+.env.*
+!.env.example
+
+# LinkedIn OAuth Tokens & Saved Drafts
+linkedin_tokens.json
+linkedin_drafts.json
+
+# Python Bytecode & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
